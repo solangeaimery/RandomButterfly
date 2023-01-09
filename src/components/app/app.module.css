@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+.title {
+    font-family: 'Niconne', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #3F334E;
+}
+
+.title__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.title__container::after {content: "";background-color: #E7E8EC; opacity: 0.5; top: 0; left: 0; bottom: 0; right: 0; position: absolute; z-index: -1; }
+
+.dice__container {
+    margin: 10px;
+}
+.dice__bump__down {
+    margin: 3px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #3F334E;
+}
+
+.dice__bump__up {
+    margin: 3px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #3F334E;
+}
+
+.roll__button {
+    cursor: pointer;
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #574C61;
+    color: #C0C5C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.roll__button:hover {
+    background-color: #7D8492;
+}
+
+.button__dice {
+    font-size: 30px;
+    margin: 5px;
+    color: #C0C5C1;
+
+}
+
+.card__result__container {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 5px solid #30263D;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card__result__title {
+    font-size: 25px;
+    color: rgb(8, 7, 7);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+}
+
